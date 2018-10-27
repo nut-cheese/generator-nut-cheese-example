@@ -1,0 +1,44 @@
+.designed-by {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.redirect-btn {
+  font-family: Avenir, Montserrat, Helvetica;
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 90px;
+  color: #fff;
+  cursor: pointer;
+  animation: dubstep 0.8572 2 ease;
+  &:hover {
+    animation: dubstep 1s ease;
+  }
+}
+
+@keyframes dubstep {
+  0% {
+    text-shadow: 0 0 0 #fff;
+  }
+  40% {
+    text-shadow: 4px 0 0 #ff2b2b;
+  }
+  43% {
+    text-shadow: 3px 0 0 #2231ff, 15px 0 0 #aa22ff, -7px 0 0 #aaff22;
+    color: #f1f1f1;
+  }
+  44% {
+    text-shadow: 3px 0 0 #2231ff, 15px 2px 0 #aa22ff, -7px -1.5px 0 #aaff22;
+    color: rgba(0, 0, 0, 0.2);
+  }
+  45% {
+    text-shadow: 3px 0 0 #2231ff, 15px 0 0 #aa22ff, -7px 0 0 #aaff22;
+    color: #f1f1f1;
+  }
+  100% {
+    text-shadow: 0 0 0 #fff;
+  }
+}

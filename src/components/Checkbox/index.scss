@@ -1,0 +1,17 @@
+.checkbox {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  color: #fff;
+  background: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  transition: all .4s ease;
+  &.checked {
+    background: rgba(215, 221, 232, 1);
+    border: 1px solid #d7dde8;
+  }
+}

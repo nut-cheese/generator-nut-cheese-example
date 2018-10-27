@@ -1,0 +1,17 @@
+.daily-block {
+  margin-bottom: 20px;
+  .daily-date {
+    display: inline-block;
+    font-size: 14px;
+    padding-bottom: 15px;
+    color: #fec1cd;
+    cursor: pointer;
+    &.completed {
+      color: #d7dde8;
+      text-decoration: line-through;
+    }
+  }
+  .todo-item-wrapper {
+
+  }
+}
