@@ -66,7 +66,6 @@ module.exports = {
     }]
   },
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin(),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vender',
@@ -82,11 +81,4 @@ module.exports = {
       }
     })
   ],
-  devServer: {
-    hot: true,
-    port: 7801,
-    historyApiFallback: true,
-    contentBase: path.join(__dirname, '../dist'),
-  },
-  devtool: 'cheap-module-eval-source-map',
 };
